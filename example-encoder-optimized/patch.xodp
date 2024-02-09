@@ -1,4 +1,5 @@
 {
+  "description": "Patch to test optimized interrupt encoder. Run in debugger.",
   "links": [
     {
       "id": "SJdPaR7sa",

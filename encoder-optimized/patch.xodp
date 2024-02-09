@@ -1,5 +1,5 @@
 {
-  "description": "Quadrature encoder with optimized interrupt routines. Encoder will directly define interrupts the minimum overhead. N.B. there The is a conflict if any other code in your patch or any libraries you use require attachInterrupt(). ",
+  "description": "Quadrature encoder with optimized interrupt routines. Encoder will directly define interrupts to minimize overhead. N.B. there is a conflict if any other code in your patch or any libraries you use require attachInterrupt(). ",
   "nodes": [
     {
       "id": "SJXQjn7o6",
