@@ -1,0 +1,78 @@
+{
+  "description": "Quadrature encoder.",
+  "nodes": [
+    {
+      "id": "SJXQjn7o6",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D2"
+      },
+      "description": "Port for signal one. Use a hardware interrupt pin for best performance.",
+      "id": "rJgFshXs6",
+      "label": "P1",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D3"
+      },
+      "description": "Port for signal 2. Use a hardware interrupt pin for best performance.",
+      "id": "S1Qtsn7i6",
+      "label": "P2",
+      "position": {
+        "units": "slots",
+        "x": -5,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "A pulse to this input triggers a read of position.",
+      "id": "SytKshms6",
+      "label": "Read",
+      "position": {
+        "units": "slots",
+        "x": -4,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Position.",
+      "id": "SJdr3n7sT",
+      "label": "Pos",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "r1jcbCmsa",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": -5,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}
